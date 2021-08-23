@@ -1,0 +1,117 @@
+* {
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    background-color: #1C1C1C ;
+}
+
+header h1 {
+    text-align: center;
+    text-transform:uppercase;
+    color:#D3D3D3;
+    font-weight: 900;
+    font-size: 3rem;
+    justify-content: center;
+    
+}
+
+#navegacao {
+    width: 580px;
+    height: 80px;
+    line-height: 10px;
+    margin-left: 58%;
+    text-align: right;
+}
+
+#navegacao ul {
+    text-align: right;
+    border: 0.5rem;
+
+}
+
+#navegacao li {
+    display: inline-flex;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#navegacao ul a {
+    text-decoration:none;
+    color:#ADFF2F;
+    cursor:pointer;
+}
+
+#Lancheria img{
+    height: 200px;
+    width: 200px;
+    border: 1px ;
+    border-radius: 80px;
+    margin-top: 1px;
+    margin-left: 5rem;
+    align-items: left;
+    display: inline-block;
+}
+
+#Lancheria {
+    margin-top: 5rem;
+    margin-left: 2.5rem;
+}
+
+#sobre,p {
+    width: 600px;
+    height: 5px;
+    margin-left: 10rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p.texto-sobre {
+    padding-top: 3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #D3D3D3;
+}
+
+span {
+    color: #ADFF2F;
+}
+
+.loc iframe{
+    width: 300px;
+    height: 300px;
+    margin-left: 3rem;
+    margin-top: 15rem;
+    border: 1px;
+    border-radius: 0px 50px 50px 0px;
+    position: relative;
+}
+
+.texto-loc{
+    color: #D3D3D3;
+    width: 50px;
+    height: 5px;
+    padding-left: 8rem;
+    margin-top: 20rem;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20%;
+    border: 1px solid #0e0e0e;
+    background-color: #0e0e0e;
+    color:#DCDCDC;
+    font-weight: 700;
+    
+
+}
