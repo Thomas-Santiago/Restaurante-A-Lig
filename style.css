@@ -13,15 +13,21 @@ body{
 header h1 {
     text-align: center;
     text-transform:uppercase;
-    color:#D3D3D3;
     font-weight: 900;
-    font-size: 3rem;
-    justify-content: center;
-    
+    font-size: 3rem;   
+}
+
+.titulo {
+    background: -webkit-liner-gradient(left,#ADFF2F 0%,#006400 100%);
+    background: linear-gradient(to right,#ADFF2F 0%,#006400 100%);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color:transparent;
+     
+     box-shadow:1px 1px 10px	#ADFF2F;
 }
 
 #navegacao {
-    width: 580px;
+    width: 550px;
     height: 80px;
     line-height: 10px;
     margin-left: 58%;
@@ -31,7 +37,6 @@ header h1 {
 #navegacao ul {
     text-align: right;
     border: 0.5rem;
-
 }
 
 #navegacao li {
@@ -51,16 +56,34 @@ header h1 {
     height: 200px;
     width: 200px;
     border: 1px ;
-    border-radius: 80px;
+    border-radius: 50px;
     margin-top: 1px;
-    margin-left: 5rem;
+    margin-left: 3rem;
     align-items: left;
     display: inline-block;
 }
 
 #Lancheria {
     margin-top: 5rem;
-    margin-left: 2.5rem;
+    margin-left: 1rem;
+}
+
+.tele img{
+    border: 1px solid #1C1C1C;
+    border-radius: 30px 30px 30px 30px;
+    height: 200px;
+    width: 250px;
+    margin-left: 80%;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.texto-tele {
+    color: #D3D3D3;
+    padding-left: 18rem;
+    margin-top: 4.5rem;
+    position: absolute;
+    font-weight: 600;
 }
 
 #sobre,p {
@@ -86,7 +109,7 @@ span {
     width: 300px;
     height: 300px;
     margin-left: 3rem;
-    margin-top: 15rem;
+    margin-top: 10rem;
     border: 1px;
     border-radius: 0px 50px 50px 0px;
     position: relative;
@@ -97,11 +120,10 @@ span {
     width: 50px;
     height: 5px;
     padding-left: 8rem;
-    margin-top: 20rem;
+    margin-top: 17rem;
     text-align: center;
     font-weight: 600;
     position: absolute;
-
 }
 
 
@@ -112,6 +134,4 @@ footer {
     background-color: #0e0e0e;
     color:#DCDCDC;
     font-weight: 700;
-    
-
 }
